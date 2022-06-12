@@ -1,5 +1,5 @@
 resource "aws_instance" "myec2" {
-  //ami = "ami-068257025f72f470d"
+  //ami = "ami-079b5e5b3971bd10d"
   //We can call any value, directly like above OR by reffering variables like below "var.xyz"
   ami = var.ami
   instance_type = var.instance_type
